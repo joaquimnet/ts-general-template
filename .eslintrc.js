@@ -16,7 +16,14 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'],
   rules: {
+    '@typescript-eslint/no-empty-function': 'off',
     'unicorn/prefer-module': 'off',
+    'unicorn/prevent-abbreviations': 'off',
+    'unicorn/no-null': 'off',
+    'unicorn/catch-error-name': 'off',
+    'unicorn/no-useless-undefined': 'off',
+    'unicorn/prefer-node-protocol': 'off',
+    'unicorn/no-console-spaces': 'warn',
   },
   ignorePatterns: ['dist/*', '.eslintrc.js'],
 };
