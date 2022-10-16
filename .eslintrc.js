@@ -5,25 +5,18 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
-    'plugin:unicorn/recommended',
     'plugin:@typescript-eslint/recommended',
-    'prettier',
+    'plugin:prettier/recommended',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'prettier'],
   rules: {
     '@typescript-eslint/no-empty-function': 'off',
-    'unicorn/prefer-module': 'off',
-    'unicorn/prevent-abbreviations': 'off',
-    'unicorn/no-null': 'off',
-    'unicorn/catch-error-name': 'off',
-    'unicorn/no-useless-undefined': 'off',
-    'unicorn/prefer-node-protocol': 'off',
-    'unicorn/no-console-spaces': 'warn',
+    'prettier/prettier': 'warn',
   },
   ignorePatterns: ['dist/*', '.eslintrc.js'],
 };
