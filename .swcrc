@@ -3,8 +3,7 @@
     "parser": {
       "syntax": "typescript",
       "tsx": false,
-      "decorators": true,
-      "dynamicImport": false
+      "decorators": true
     },
     "transform": null,
     "target": "es2022",
@@ -21,7 +20,5 @@
   },
   "module": {
     "type": "commonjs"
-  },
-  "minify": true,
-  "isModule": false
+  }
 }
