@@ -1,8 +1,11 @@
 import { describe, test, expect } from 'vitest';
-import { calc } from '.';
+import { calc, sayHello } from '.';
 
-describe('Calc tests', () => {
+describe('Example tests', () => {
   test('should calculate', () => {
     expect(calc(3, 5)).toBe(15);
+  });
+  test('should say hello', () => {
+    expect(sayHello('TypeScript!')).toBe('Hello TypeScript!');
   });
 });
