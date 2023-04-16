@@ -10,7 +10,7 @@ A start template for Typescript applications.
 
 ## Clone it
 
-`npx -y degit joaquimnet/ts-general-template`
+`npx -y degit joaquimnet/ts-general-template my-app`
 
 ## Commands
 
