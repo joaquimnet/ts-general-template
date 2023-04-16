@@ -14,6 +14,10 @@ A start template for Typescript applications.
 
 ## Commands
 
+### `dev` - Starts the project in development mode with nodemon.
+
+### `start` - Starts the built project with node.
+
 ### `build` - Builds project to dist folder.
 
 ### `test` - Run tests.
