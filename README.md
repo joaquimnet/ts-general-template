@@ -9,7 +9,7 @@ A starter template for Typescript applications.
 - [swc](https://swc.rs/) - Fast rust based TS compiler.
 - [Vitest](https://vitest.dev/) - Blazing Fast Unit Test Framework.
 
-## Clone it
+## Use it
 
 `npx -y degit joaquimnet/ts-general-template my-app`
 
