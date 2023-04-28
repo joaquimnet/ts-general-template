@@ -1,14 +1,15 @@
 # TS General Template
 
-A start template for Typescript applications.
+A starter template for Typescript applications.
 
 ## Features
 
-- [Rome](https://rome.tools/) - Fast rust based linter and formatter.
+- [Eslint](https://eslint.org/) - Linter.
+- [Prettier](https://prettier.io/) - Code formatter.
 - [swc](https://swc.rs/) - Fast rust based TS compiler.
 - [Vitest](https://vitest.dev/) - Blazing Fast Unit Test Framework.
 
-## Clone it
+## Use it
 
 `npx -y degit joaquimnet/ts-general-template my-app`
 
@@ -21,6 +22,10 @@ A start template for Typescript applications.
 ### `build` - Builds project to dist folder.
 
 ### `test` - Run tests.
+
+### `test:watch` - Run tests, watch mode.
+
+### `test:coverage` - Run tests, generate coverage report.
 
 ### `lint` & `format` - Lint and format your code.
 
